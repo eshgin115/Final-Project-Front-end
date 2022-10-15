@@ -1,0 +1,13 @@
+#toaster{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px ;
+    opacity: 0;
+    transition: 0.5s;
+}
+.table img{
+    width: 50%;
+}

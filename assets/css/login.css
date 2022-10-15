@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 40px 100px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.login-btns{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.login-btns p{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.login-btns a{
+    margin-left: 40px;
+    background-color: #ff497c;
+    color: white;
+    border-radius: 6px;
+    padding: 16px 38px;
+    transition: 0.4s;
+    z-index: 1;
+    
+}
+.section1{
+    overflow-x: hidden;
+}
+.logincontent{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 200px 50px 0 100px;
+    background-image: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg);
+}
+.signetrade{
+    height: 100vh;
+    margin-left: 75px;
+    padding: 200px 50px 0 100px;
+    
+} 
+.email{
+    margin: 10px 0;
+    border-radius: 5px;
+    padding:20px 5px    ;
+    border: 2px solid #CBD3D9;
+    width: 57%;
+}
+.email input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.forgotpass{
+    display: flex;
+    align-items: center;
+    
+}
+.forgotpass button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 5px;
+
+}
+.forgotpass a{
+    margin-left: 25%;
+}
+@media(max-width:576px){
+    .email{
+        width: 100% !important;
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+    }
+    .forgotpass a{
+        margin-left: 30px !important;
+    }
+    .login-btns{
+        display: unset;
+    }
+    .login-btns a{
+        padding: 16px 10px;
+    }
+    .login-btns p{
+        margin-bottom: 25px;
+        margin-left: 30px;
+    }
+    .logincontent{
+        display: none;
+    }
+    header{
+        position: unset;
+    }
+    .login-btns a{
+        margin-left: unset;
+    }
+    .login-btns p{
+        margin-left: unset;
+    }
+    .signetrade{
+        display: unset;
+
+    }
+    .forcenter{
+        margin-left: 40px;
+    }
+}
+
